@@ -4,5 +4,6 @@
 
 const score = 100
 //Referenced Type (Non primitive) DataType
-//Array, Objects, Functions,  
+//Array, Objects, Functions,
+  
 
