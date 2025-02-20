@@ -7,6 +7,7 @@ console.log(3+3); console.log("Httesh")
 //Data Types
 //Numbers
 
+
 let num =3.14;
 let num1 =10;
 console.log(num);
@@ -32,6 +33,7 @@ let lastLoggesinDate =null;
 console.log(lastLoggesinDate)
 
 //Undefined
+//space use
 let lastValue = undefined;
 
 //Object
@@ -39,8 +41,10 @@ const person = {
     firstName:'tanaya',
     lastName:'kanerkar',
     age:24,
-    isLoggedIn:false
+    isLoggedIn:false,
+    lastLoggesinDate:null,
 }
+console.log(person);
 //separete with comma in object, object contain key-value pairs
 
 //Operators

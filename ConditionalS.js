@@ -1,6 +1,7 @@
 //IF ELSE
 //AGR APKO KOI TASK PERFORM KRNA HAI TO IF ELSE CONDITION USE KRENGE
 // u apply multiple else iff
+
 const age = 22;
 
 if (age >= 18) {
@@ -17,11 +18,10 @@ if (age >= 18) {
 // let result = age >= 18 ? console.log('Yes'): console.log('No')
 
 let result = age >= 18 ? "Yes" : "No";
-
 console.log(result);
 
-//SWITCH CASE STATEMENTS
 
+//SWITCH CASE STATEMENTS
 const option = 1;
 
 switch (option) {

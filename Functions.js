@@ -1,4 +1,5 @@
 // FUNCTIONS
+//Functions are a Block of code that performs a particular task
 
 function sayHello(){
     console.log('Hey Tanaya')

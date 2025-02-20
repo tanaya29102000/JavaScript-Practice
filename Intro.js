@@ -7,3 +7,4 @@
 //Write the javascript code inside the html file.
 //Write the javascript code in seprate.js file 
 
+//Javascript is a loosly type language

@@ -1,6 +1,6 @@
 //HIGHER ORDER FUNCTIONS AND CALLBACK FUNCTIONS
 
-//A FUNCTION THAT TAKES A FUNCTION AS AN ARGUMENT
+//A FUNCTION THAT TAKES A FUNCTION AS AN ARGUMENT ko accept kr ske use hoc khte hai.
 function add(a, b, cb){//HOC Fn
     let result = a + b;
     cb(result);  

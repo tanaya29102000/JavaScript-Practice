@@ -1,15 +1,16 @@
-//AND OR NOT
-//AND All Condition must be true....
+//AND | OR | NOT
+//AND->  All Condition must be true....
 
 const age = 22;
 const gender ='female';
+//Single = equal to mean to assign its value
+//If u write & one time it is bitwise and i want to use &&
 
-// if (age >= 18 && gender == 'female' && false){
+// if (age >= 18 && gender == 'female' && false){(== to check its equal or not)
 //     console.log('You are adult female')
 // }
 
-//OR A tleast one condition should true(||)
-
+//OR At least one condition should be true(||)
 if (age >= 18 || gender == 'female'){
     console.log('You are adult female')
 }
