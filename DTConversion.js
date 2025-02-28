@@ -30,6 +30,7 @@ console.log(booleanIsLoggedIn);
 //""=>false
 //"tanaua"=>true
 
+///////////////////////////////////////////////////////////////////////////////////
 let someNumber = 33
 
 let stringNumber = String(someNumber)
@@ -58,7 +59,7 @@ let str3 = str1 + str2
 // console.log(1 + "2")
 // console.log("1" + 2 + 2)
 // console.log(1 + 2+ "2");
-// console.log((3+4)*5%3);
+// console.log((3+4)*5%3); // o/p 2 
 
 // dont prefer //console.log(+true);
 
@@ -79,3 +80,4 @@ console.log(null >= 0);// null=0 //true
 console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
+

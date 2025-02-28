@@ -4,7 +4,7 @@
 
 console.log(3+3); console.log("Httesh")
 
-//Data Types
+//Data Types.................................................................
 //Numbers
 
 
@@ -21,14 +21,14 @@ const lastName= "kanerkar";
 //u can concatenate
 console.log(firstName + ' '+ lastName);
 
-//Boolean 1 | 0
+//Boolean 1 | 0 -> true /false
 
 let isLoggedIn = true
 console.log(isLoggedIn + 10)
 //             1+10=11
 
 
-//Null
+//Null -> standalone value
 let lastLoggesinDate =null;
 console.log(lastLoggesinDate)
 
