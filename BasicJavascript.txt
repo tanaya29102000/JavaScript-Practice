@@ -1,0 +1,160 @@
+**VARIABLES AND DATA TYPES:
+
+let, const, var
+
+Used to declare variables.
+
+Data Types:
+1:String: 'Hello'
+2.Number:123
+3.Boolean:true/false
+4.Array:[1,2,3]
+5.Object:{key:'value'}
+
+
+Example:
+let age = 25;
+const name ="Tanaya"
+
+-----------------------------------------------------------------
+OPERATORS:
+
+Arithmatic: +,-.*,/,%
+
+Comparison: ==,===,!=,!==,>,<
+
+Logical: &&, ||, !
+
+Assignment Operators: =, +=, -=, *=, /=
+
+Ternary Operator: 
+
+condition ? valueTrue : valueFalse
+
+Bitwise Operators: &, |, ^,  ~, <<, >>
+
+--------------------------------------------------------------------------
+Conditional Statements:
+
+if /else if / else:
+
+Run code based on conditions.
+
+if (age>18){
+    
+  console.log("Tanaya")
+
+}else{
+
+    console.log("Rani");
+}
+
+-----------------------------------------------------------------
+LOOPS:
+
+for, while, forEach: Repeat actions multiple times.
+
+for(let i= 0; i<5 ; i++){
+
+    console.log(i);
+
+}
+
+------------------------------------------------------------------------------
+TYPES OF FUNCTIONS:
+
+Function Declarations:
+Regular function defined with the function keyword.
+
+Function Expression:
+A function stored in a variable.
+
+Arrow Functions:
+Shorter syntax for writing functions.
+
+Anonymous Functions:
+Functions without a name
+
+Higher-Order Functions:
+Functions that take other functions as an arguments.
+
+-------------------------------------------------------------------------
+Arrays:
+
+Array Methods:
+
+.push(): TO Add 
+.pop(),
+.map(),
+.filter()
+
+** let arr = [1, 2, 3];
+arr.push(4);
+
+output: [1,2,3,4]
+
+------------------------------------------------------------------
+Objects:
+
+Object Access:
+Dot and Bracket notation.
+
+let person = { name: 'Tanya', age:25 };
+console.log(person.name);
+
+output: Tanya
+
+-------------------------------------------------------------------------
+DOM Manipulatons :
+
+Document Object Model(DOM);
+
+Interact with web elements
+
+document.getElementById('myElement').textContent ='Hello';
+
+-------------------------------------------------------------------------------
+Events:
+
+Events: Actions that occur in the browser (e.g., click, submit)
+
+document.getElementById('btn').addEventListener('click',()=>{
+    alert('Button clciked!');
+})
+
+--------------------------------------------------------------------------------
+ES6 Features:
+
+Destructuring:
+Unpack values from arrays or objects.
+
+let [a, b] = [1, 2];
+
+Output a= 1, b= 2
+
+let{name, age} = {name: "Tanaya", age: 30};
+
+--------------------------------------------------------------------
+Template Literals:
+
+String interpolation.
+
+const greeting = 'Hello, ${name}!;
+
+-----------------------------------------------------------------------
+Promises & Async / Await:
+
+Promise:
+Handle asynchronous operations
+
+let promise = new promise((resolve, reject)=>{
+    //async task
+})
+
+Async / Await : Cleaner async code.
+
+async function fetchdata(){
+    let response = await fetch('url');
+    let data = await response.json();
+    console.log(data);
+}
