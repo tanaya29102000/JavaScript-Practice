@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Comatible" content="" />
     <meta name="viewport" content="width=device-width" />
-    <title>Document</title>
+    <title>Clousure</title>
   </head>
   <body>
     <div>
@@ -17,6 +17,17 @@
         <h6 id="city-time">localtime</h6>
         <p id="city-temp">13</p>
     </div>
-    <script src="script1.js"></script>
+    <script>
+      function init() {
+  var name = "Mozilla"; // name is a local variable created by init
+  function displayName() {
+    // displayName() is the inner function, that forms a closure
+    console.log(name); // use variable declared in the parent function
+  }
+  displayName();
+}
+init();
+
+    </script>
   </body>
 </html>

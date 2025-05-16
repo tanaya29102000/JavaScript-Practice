@@ -1,0 +1,35 @@
+// 13 VARIABLES - syntax rules
+
+cant use keywords or reserved words
+cant start with a number
+no special characters other than $ and _
+= is for assignment
+; means end of instruction 
+
+
+//13 VARIABLES - Updating values
+
+Do not need to use let again.
+Syntax: variable = variable + 1
+Assignment Operator is used = 
+Short Hand Assignment Operators:
++=, -=, *=, /=, ++
+
+
+//PRIMITIVE TYPES
+
+null !== undefined
+
+null
+no values, on purpose
+the type is objects
+equal to 0
+->bowl is empty
+
+undefined
+declared , but not yet
+the type is undefined 
+equal to NAN (Not a number)
+->even bowl is not exist
+
+//TYPEOF OOPERATOR

@@ -38,15 +38,28 @@
 //accountId = 2
 //Assignment to constatnt variable.
 
-accountEmail ="dbfj@fg.com"
-accountPassword ="546575"
-accountCity = "delhi";
-//Semicolon is not manadatory in javascript
+// accountEmail ="dbfj@fg.com"
+// accountPassword ="546575"
+// accountCity = "delhi";
+// //Semicolon is not manadatory in javascript
 
-console.table([accountId,accountEmail,accountPassword,accountCity]);
-//two ways to output console.log and console.table.
-console.log(accountId);
+// console.table([accountId,accountEmail,accountPassword,accountCity]);
+// //two ways to output console.log and console.table.
+// console.log(accountId);
 
 // {} is called scope variable 
 
 
+// let money = 100;
+// console.log(money);
+
+let noOfStudents = 5;
+noOfStudents = noOfStudents + 1;
+console.log(noOfStudents);
+
+let money = 1;
+money += 5;
+money -= 2;
+money *= 4;
+money /=3;
+money++;
