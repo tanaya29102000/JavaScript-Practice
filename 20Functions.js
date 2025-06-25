@@ -1,11 +1,12 @@
 // FUNCTIONS
-//Functions are a Block of code that performs a particular task
+//Functions are a Block of code that performs a particular task OR BLOCK OF REUSABLE CODE.
+
 
 function sayHello(){
     console.log('Hey Tanaya')
 }
 
-//ARGUMENT
+//ARGUMENT OR PARAMETERS
 function add (num1, num2){
     console.log(num1 + num2);
 }
@@ -44,3 +45,15 @@ console.log(result)
 
 //SPREAD OPERATOR
 
+
+//----------------------------------------------------------------------------------
+
+//FUNCTION RETURN STATEMENTS
+
+function getPrimeNumber(){
+    return 5;
+    console.log('after return');//will never execute
+}
+
+let prime = getPrimeNumber();
+console.log(prime);

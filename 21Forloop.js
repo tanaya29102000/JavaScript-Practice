@@ -7,8 +7,7 @@ for (initialization; Condition; update) {
 //while loop
 
 let counter = 0; //Initialization
-while (counter < 100) {
-  //condition check
+while (counter < 100) { //condition check
   console.log(`${counter + 1}`);
   counter = counter + 1; //update
 }
