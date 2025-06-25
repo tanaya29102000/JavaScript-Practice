@@ -1,4 +1,5 @@
-//for each loop
+//for each loop practice
+
 
 let foods = ['bread', 'rice','meat','pizza'];
 
