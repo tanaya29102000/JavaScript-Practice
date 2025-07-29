@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript query selector</title>
+  </head>
+  <body>
+    <div id="my-container"></div>
+    <button id="clickButton">Click Me</button>
+
+    <script>
+      const button = document.getElementById("clickButton");
+      const container = document.getElementById("my-container");
+
+      let count = 1;
+
+      button.addEventListener("click", () => {
+        const el = document.createElement("li");
+        el.innerText = count;
+        container.appendChild(el);
+        count++;
+      });
+    </script>
+  </body>
+</html>

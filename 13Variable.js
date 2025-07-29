@@ -4,6 +4,7 @@
 //1:
 //Var is a keyword which stand for Variables
 //Scope: Global scope ,  access anywhere and functional scope
+//it is redeclared and updated 
 
 //if (true){
 //var age = 23;

@@ -10,6 +10,14 @@ function sayHello(){
 function add (num1, num2){
     console.log(num1 + num2);
 }
+add("6+9");//6+9 are argumentss**********
+//num1 and num2 are parameter *************
+
+
+function sum2(a,b){
+    return a+b;
+}
+console.log(sum2);
 
 function multiply(a, b){
     console.log(a * b);

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    width: 0;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+}
+
+.item{
+   border: 1px solid black;
+   width: 100px;
+   height: 50px;
+}
+
+.item-1{
+    background-color: rgb(239, 50, 17);
+}
+
+.item-2{
+    background-color: blue;
+}
+
+.item-3{
+    background-color: chartreuse;
+}
+
+.item-4{
+    background-color: chocolate;
+}
+
+.item-5{
+background-color: cornflowerblue;
+}
